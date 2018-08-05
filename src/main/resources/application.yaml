@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:pigeon_db;MODE=PostgreSQL
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
